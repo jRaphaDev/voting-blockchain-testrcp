@@ -30,5 +30,5 @@ $ node
 > contractInstance = VotingContract.at(deployedContract.address) // this addres we use on index.js
 > contractInstance.totalVotesFor.call('Raphael')
 > contractInstance.voteForCandidate('Raphael', {from: web3.eth.accounts[0]})
->contractInstance.totalVotesFor.call('Raphael').toLocaleString()
+> contractInstance.totalVotesFor.call('Raphael').toLocaleString()
 ```
