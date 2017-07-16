@@ -1,13 +1,16 @@
 # voting-blockchain-testrcp
-
-npm install ethereumjs-testrpc web3 install ethereumjs-testrpc and web3
-npm install solc
-
+```sh
+$ npm install ethereumjs-testrpc web3
+$ npm install solc
+```
 RUN: 
+
+```sh
 node_modules/.bin/testrpc run testrpc
+```
 
 in anorther terminal RUN:
-
+```sh
 node
 Web3 = require('web3')
 web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
@@ -28,3 +31,10 @@ contractInstance = VotingContract.at(deployedContract.address) // this addres we
 contractInstance.totalVotesFor.call('Raphael')
 contractInstance.voteForCandidate('Raphael', {from: web3.eth.accounts[0]})
 contractInstance.totalVotesFor.call('Raphael').toLocaleString()
+```
+
+```sh
+$ cd dillinger
+$ npm install -d
+$ node app
+```
