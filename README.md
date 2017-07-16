@@ -32,9 +32,3 @@ contractInstance.totalVotesFor.call('Raphael')
 contractInstance.voteForCandidate('Raphael', {from: web3.eth.accounts[0]})
 contractInstance.totalVotesFor.call('Raphael').toLocaleString()
 ```
-
-```sh
-$ cd dillinger
-$ npm install -d
-$ node app
-```
