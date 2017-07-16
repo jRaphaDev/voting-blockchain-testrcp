@@ -6,7 +6,7 @@ $ npm install solc
 RUN: 
 
 ```sh
-node_modules/.bin/testrpc run testrpc
+node_modules/.bin/testrpc
 ```
 
 in anorther terminal RUN:
