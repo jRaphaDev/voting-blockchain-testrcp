@@ -3,13 +3,17 @@
 $ npm install ethereumjs-testrpc web3
 $ npm install solc
 ```
-RUN: 
-
+## RUN:
+windows - enable test enviroment
+```
+cd node_modules\.bin
+testrpc
+```
+another plataforms - enable test enviroment
 ```sh
 $ node_modules/.bin/testrpc
 ```
-
-in anorther terminal RUN:
+in another terminal RUN:
 ```sh
 $ node
 > Web3 = require('web3')
